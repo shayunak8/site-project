@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Css.Master.cs" Inherits="Project3.Nav" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title></title>
+    <link href="/../styles/navigation.bar.css" rel="stylesheet" />
+    <link href="/../styles/Text.css" rel="stylesheet" /> 
+    <link href="/../Styles/pics.css" rel="stylesheet" />
+    <script src="/../Javascript/Form.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body onload="startTime(); date()">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+
+
+</html>
